@@ -9,7 +9,8 @@ It describes what each directory contains so AI and humans can quickly locate re
 **Key files:**
 - `MANIFEST.md` — Navigation by task type (start here)
 - `OVERVIEW.md` — This file (directory index)
-- `global_rules.md` — AI behavior rules
+- `CONTRIBUTING.md` — How to contribute to this knowledge base
+- `README.md` — Entry point and usage guide
 
 ---
 

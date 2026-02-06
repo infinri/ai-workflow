@@ -69,7 +69,7 @@ ai-workflow/
 ├── README.md            # Entry point (this file)
 ├── MANIFEST.md          # Navigation and index (START HERE for lookup)
 ├── OVERVIEW.md          # Complete directory index
-├── global_rules.md      # Global AI rules
+├── CONTRIBUTING.md      # How to contribute
 │
 ├── bible/               # Domain-specific knowledge
 │   ├── architecture/
