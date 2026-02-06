@@ -65,20 +65,26 @@ If guidance is unclear, conflicting, or missing, the AI **must stop and ask** be
 This directory is intentionally **modular and hierarchical**.
 
 ```
-ai/
+ai-workflow/
 ├── README.md            # Entry point (this file)
 ├── MANIFEST.md          # Navigation and index (START HERE for lookup)
+├── OVERVIEW.md          # Complete directory index
+├── global_rules.md      # Global AI rules
 │
-├── bible/
-│   ├── 00-overview.md
+├── bible/               # Domain-specific knowledge
 │   ├── architecture/
-│   ├── magento/
-│   ├── php/
 │   ├── database/
-│   ├── security/
+│   ├── frameworks/
+│   ├── languages/
+│   │   └── php/
 │   ├── performance/
-│   ├── testing/
-│   └── playbooks/
+│   ├── playbooks/
+│   ├── security/
+│   └── testing/
+│
+├── enforcement/         # AI behavior enforcement
+├── prompts/             # Reusable prompt templates
+└── rules/               # Core principles and rules
 ```
 
 Each folder represents a **decision domain**, not a language or framework tutorial.
