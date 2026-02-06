@@ -64,21 +64,22 @@ If guidance is unclear, conflicting, or missing, the AI **must stop and ask** be
 
 This directory is intentionally **modular and hierarchical**.
 
+```
 ai/
-├── README.md # Entry point (this file)
-├── MANIFEST.md # Navigation and index (START HERE for lookup)
+├── README.md            # Entry point (this file)
+├── MANIFEST.md          # Navigation and index (START HERE for lookup)
 │
 ├── bible/
-│ ├── 00-overview.md
-│ ├── architecture/
-│ ├── magento/
-│ ├── php/
-│ ├── database/
-│ ├── security/
-│ ├── performance/
-│ ├── testing/
-│ └── playbooks/
-
+│   ├── 00-overview.md
+│   ├── architecture/
+│   ├── magento/
+│   ├── php/
+│   ├── database/
+│   ├── security/
+│   ├── performance/
+│   ├── testing/
+│   └── playbooks/
+```
 
 Each folder represents a **decision domain**, not a language or framework tutorial.
 
