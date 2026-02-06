@@ -7,7 +7,7 @@ This directory contains the **AI Knowledge Base ("Coding Bible")** for this repo
 It is a **structured, versioned source of institutional knowledge** that documents:
 - architectural decisions and rationale
 - coding standards and constraints
-- framework-specific rules (e.g. Magento)
+- framework-specific rules and constraints
 - security expectations
 - performance and scalability considerations
 - approved patterns and known anti-patterns
@@ -35,13 +35,13 @@ Before proposing any solution, refactor, fix, or recommendation, the AI must:
 
 1. **Identify the task domain(s)**  
    Examples include (but are not limited to):
-   - Magento dependency injection
-   - Database / MySQL behavior
+   - Architecture and design patterns
+   - Database / SQL behavior
    - Security
    - Error handling
    - Performance optimization
+   - Testing
    - Refactoring
-   - Production incident response
 
 2. **Consult only the relevant sections of this knowledge base**
    - Do NOT load or summarize the entire Bible
@@ -51,8 +51,8 @@ Before proposing any solution, refactor, fix, or recommendation, the AI must:
 3. **Explicitly state which sections were consulted**
    Example:
    > Consulted:  
-   > `/bible/database/mysql-indexing.md`  
-   > `/bible/magento/collections.md` 
+   > `/bible/database/sql-authoring.md`  
+   > `/bible/languages/php/coding-standards.md` 
 
 4. **Propose a plan before requesting file access**
 
@@ -107,9 +107,9 @@ Use the following process:
 
 3. **Consult multiple domains explicitly if required**
    Example:
-   - A Magento performance issue may require reading both:
-     - `/bible/magento/` 
-     - `/bible/database/` 
+   - A PHP performance issue may require reading both:
+     - `/bible/languages/php/`
+     - `/bible/performance/` 
 
 ---
 

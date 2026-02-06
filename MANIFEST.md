@@ -59,14 +59,14 @@ Read:
 
 ---
 
-### Magento Development
+### Framework Development
 Consult when:
-- working on Magento modules
-- touching DI, plugins, observers
-- modifying collections or repositories
+- working with specific frameworks
+- extending framework functionality
+- following framework conventions
 
 Read:
-- `/bible/frameworks/magento/` 
+- `/bible/frameworks/`
 
 ---
 

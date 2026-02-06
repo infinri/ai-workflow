@@ -91,8 +91,10 @@ Current files:
 ### `bible/frameworks/`
 **Framework-specific rules and constraints**
 
-Subdirectories:
-- `magento/` — Magento-specific behavior, DI, plugins, observers
+Contains:
+- Framework behavior and conventions
+- Plugin/extension patterns
+- Integration guidelines
 
 Current files: *(empty - awaiting rules)*
 
@@ -166,7 +168,7 @@ Current files: *(empty - awaiting playbooks)*
 |-----------|--------|-------------|
 | `bible/architecture/` | System design | `ARCH-` |
 | `bible/database/` | SQL / Data | `DB-` |
-| `bible/frameworks/magento/` | Magento | `MAGE-` |
+| `bible/frameworks/` | Frameworks | `FW-` |
 | `bible/languages/php/` | PHP | `PHP-` |
 | `bible/performance/` | Performance | `PERF-` |
 | `bible/security/` | Security | `SEC-` |
